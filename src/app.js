@@ -7,7 +7,7 @@ app.use('/', express.static(__dirname + '/public'))
 console.log(__dirname);
 
 app.get('/', (req, res) => {
-  let view = resolve(__dirname, '../views','index.html');
+  let view = resolve(__dirname, '/views','index.html');
   return res.sendFile(view);
 }) ;
 app.listen(port,()=>{
