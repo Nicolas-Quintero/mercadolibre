@@ -1,0 +1,40 @@
+footer {
+    padding: 20px;
+    margin-top: 40px;
+}
+
+.copyright {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.titulares-footer {
+    font-size: 16px;
+}
+
+.pago-tarjeta,
+.envios,
+.seguridad {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.pago-tarjeta div i,
+.envios div i,
+.seguridad div i {
+    color: var(--color-celeste);
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.pago-tarjeta p,
+.envios p,
+.seguridad p {
+    font-size: 16px;
+}
+
+@media screen and (min-width: 1024px) {
+    .info-footer {
+        display: flex;
+    }
+}
